@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <div>
         <p>home page...</p>
-        <img src='/img/ic01.png' />
+        <img src='./img/ic01.png' />
       </div>
     )
   }

@@ -31442,7 +31442,7 @@ var Home = function (_Component) {
           null,
           'home page...'
         ),
-        _react2.default.createElement('img', { src: '/img/ic01.png' })
+        _react2.default.createElement('img', { src: './img/ic01.png' })
       );
     }
   }]);
