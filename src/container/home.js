@@ -8,8 +8,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <p>home page...</p>
-        <img src='./img/ic01.png' />
+        <p>home page... hello</p>
       </div>
     )
   }

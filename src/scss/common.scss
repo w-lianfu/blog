@@ -1,0 +1,40 @@
+@import './color.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Segoe UI', 'Lucida Grande', 'Helvetica', 'Arial', 'Microsoft YaHei', 'FreeSans',
+    'Arimo', 'Droid Sans', 'wenquanyi micro hei', 'Hiragino Sans GB', 'Hiragino Sans GB W3',
+    'FontAwesome', 'sans-serif';
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: $black;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p, button, input, a, span, dd, li, textarea, label, b, strong, del, u {
+  font-family: 'PingFang SC', 'Lantinghei SC', 'Helvetica Neue', 'Helvetica', 'Arial',
+    'Microsoft YaHei', 'STHeitiSC-Light', 'simsun', 'WenQuanYi Zen Hei',
+    'WenQuanYi Micro Hei', 'sans-serif';
+  font-size: inherit;
+  color: inherit;
+}
+
+input:focus, button:focus, a:focus, image:focus {
+  outline: none;
+}
+
+::selection {
+  background: $c333;
+  color: $white;
+}

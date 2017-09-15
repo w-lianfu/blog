@@ -2,7 +2,13 @@
 <html lang='en'>
 <head>
   <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="msapplication-tap-highlight" content="no">
   <title>wlianfu</title>
+  <script src="https://cdn.bootcss.com/three.js/r83/three.min.js"></script>
+  <script src='/lib/dat.gui.min.js'></script>
+  <script src='/lib/stats.min.js'></script>
   <script>
     var _hmt = _hmt || [];
     (function() {
@@ -12,10 +18,23 @@
       s.parentNode.insertBefore(hm, s);
     })();
   </script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #stats {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  </style>
 </head>
 <body>
   <div id='root'></div>
-  <script src='./dist/app.js'></script>
+  <div id='stats'></div>
+  <!-- <script src='./dist/app.js'></script> -->
+  <script src='/three/motion.js'></script>
 </body>
 </html>
   
